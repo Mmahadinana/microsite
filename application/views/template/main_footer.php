@@ -1,5 +1,6 @@
 <?php defined('BASEPATH') OR exit('No direct script access allowed'); 
  
 ?>
-
-<p>&copy2018 print</p>
+<footer class="container-fluid text-center footer_fixed">
+   
+</footer>

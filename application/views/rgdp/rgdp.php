@@ -2,22 +2,23 @@
 <!--main body-->
 
 	<!--landing view-->
-	<section id="splash" class="conddtainer">
-		
+	<section id="splash" class="">
 		<?php $this->load->view('landing/landing') ?>
 	</section>
-
 	<!--main body-->
-	<section id="home" class=""></section>
-
-	<!--main body-->
-	<section id="about" class="">
-		<?php //$this->load->view('about/about') ?>
+	<section id="home" class="container">
+		<?php $this->load->view('home/home') ?>
 	</section>
-
 	<!--main body-->
-	<section id="laws" class="">
+	<section id="about" class="container">
+		<?php $this->load->view('about/about') ?>
+	</section>
+	<!--main body-->
+	<section id="laws" class="container">
 		<?php $this->load->view('laws/laws') ?>
+	</section>
+	<section class="footer">
+		<?php $this->load->view('template/main_footer') ?>
 	</section>
 
 
