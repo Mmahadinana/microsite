@@ -23,8 +23,10 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 | a PHP script and you can easily do that on your own.
 |
 */
+
 $config['base_url'] = 'http://10.11.10.11/rosy_marumo/microsite';
 //$config['base_url'] = 'http://10.11.10.11/patric_raboqhwa/microsite';
+
 
 /*
 |--------------------------------------------------------------------------
