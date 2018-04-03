@@ -1,0 +1,35 @@
+/**
+ * default style
+ */
+html{
+	/*clear spaces*/
+	margin: 0px;
+	padding: 0px;
+	/*setting the width of the app*/
+	max-width: 1920px;
+	min-width: 250px;	
+}
+body{
+	
+	height: 100%;
+
+}
+
+/**
+ * custom style
+ */
+
+div .hght{
+	height: 50%;
+}
+
+div .hght .vet-line-laws{
+	background-color: blue;
+	border-left: 2px solid #000;
+
+}
+/**
+ * custom to override the boostrapp
+ */
+
+/*col{border: none}*/

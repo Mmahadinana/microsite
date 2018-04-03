@@ -1,7 +1,6 @@
 <?php defined('BASEPATH') OR exit('No direct script access allowed'); ?>
 <!--main body-->
 
-
 	<!--landing view-->
 	<section id="splash" class="">
 		<?php $this->load->view('landing/landing') ?>
@@ -21,5 +20,6 @@
 	<section class="footer">
 		<?php $this->load->view('template/main_footer') ?>
 	</section>
+
 
 
