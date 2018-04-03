@@ -1,10 +1,12 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-class rgdp extends CI_Controller {
+class Rgdp extends CI_Controller {
 
 	public function index()
-	{
-		$this->load->view('ini');
+	{	
+		$data['pageToLoad'] = 'landing/landing';
+        $data['pageActive'] = 'landing'; 
+		$this->load->view('ini',$data);
 	}
 }

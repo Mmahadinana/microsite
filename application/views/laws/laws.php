@@ -3,7 +3,10 @@
 
 
 	<!--landing view-->
-	<section id="splash" class="container"></section>
+	<section id="splash" class="container">
+		
+		<?php $this->load->view('landing/landing') ?>
+	</section>
 
 	<!--main body-->
 	<section id="home" class="container"></section>

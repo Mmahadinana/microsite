@@ -2,10 +2,7 @@
 	<html lang="en">
 		<?php
 		$this->load->view('template/head');
-		$this->load->view('body');
-		  
+		$this->load->view('body.php');
 		?>
-
-   
   	</html>
     
