@@ -11,6 +11,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     $cssFiles =['bootstrap.min.css',
                 'font-awesome.min.css',
     			'micro.css',
+                'master.css'
     			];
     foreach ($cssFiles as $cssFile) {?>
         <link href='<?php echo base_url("assets/css/$cssFile")?>' rel="stylesheet">
