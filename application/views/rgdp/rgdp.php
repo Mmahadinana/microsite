@@ -1,17 +1,24 @@
 <?php defined('BASEPATH') OR exit('No direct script access allowed'); ?>
 <!--main body-->
 
+	<!--landing view-->
+	<section id="splash" class="conddtainer">
+		
+		<?php $this->load->view('landing/landing') ?>
+	</section>
 
-	<!-- load landing view-->
-	<section id="splash" class="container">heloo</section>
+	<!--main body-->
+	<section id="home" class=""></section>
 
-	<!-- load home -->
-	<section id="home" class="container">haluu</section>
+	<!--main body-->
+	<section id="about" class="">
+		<?php //$this->load->view('about/about') ?>
+	</section>
 
-	<!-- load main information -->
-	<section id="about" class="container">halou</section>
+	<!--main body-->
+	<section id="laws" class="">
+		<?php $this->load->view('laws/laws') ?>
+	</section>
 
-	<!-- load main laws of the country-->
-	<section id="laws" class="container">holaa</section>
 
 

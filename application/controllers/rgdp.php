@@ -5,8 +5,8 @@ class Rgdp extends CI_Controller {
 
 	public function index()
 	{	
-		$data['pageToLoad'] = 'landing/landing';
-        $data['pageActive'] = 'landing'; 
+		$data['pageToLoad'] = 'rgdp/rgdp';
+        $data['pageActive'] = 'rgdp'; 
 		$this->load->view('ini',$data);
 	}
 }
