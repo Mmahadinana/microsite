@@ -2,16 +2,16 @@
 <!--main body-->
 
 
-	<!--landing view-->
+	<!-- load landing view-->
 	<section id="splash" class="container"></section>
 
-	<!--main body-->
+	<!-- load home -->
 	<section id="home" class="container"></section>
 
-	<!--main body-->
+	<!-- load main information -->
 	<section id="about" class="container"></section>
 
-	<!--main body-->
+	<!-- load main laws of the country-->
 	<section id="laws" class="container"></section>
 
 
