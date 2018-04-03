@@ -5,6 +5,9 @@ class rgdp extends CI_Controller {
 
 	public function index()
 	{
-		$this->load->view('ini');
+		$data['pageToLoad']='laws/laws';
+		//$data['pageActive']='laws';
+		$this->load->view('ini',$data);
+		
 	}
 }
