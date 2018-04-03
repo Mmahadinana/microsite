@@ -1,4 +1,6 @@
-<?php defined('BASEPATH') OR exit('No direct script access allowed'); ?>
-	<body>
-		<h1>Hello Rosy</h1>
-	</body>
+<?php defined('BASEPATH') OR exit('No direct script access allowed'); 
+
+	//loads the view  
+ 	$this->load->view($pageToLoad);
+ 
+?>
