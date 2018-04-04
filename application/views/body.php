@@ -3,7 +3,7 @@
 <body>
 	<?php
 	 	$this->load->view($pageToLoad); 
-		$this->load->view('template/main_footer.php'); 	
+		$this->load->view('template/footer.php'); 	
 	?>	
 </body>
 

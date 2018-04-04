@@ -1,5 +1,5 @@
 <?php defined('BASEPATH') OR exit('No direct script access allowed'); 
 ?>
-<div class="splash">
+<div class="banner">
 	
 </div>

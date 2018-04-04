@@ -1,4 +1,7 @@
-.splash {
+/* mouse button scroller*/ 
+
+/*banner*/
+.banner {
     height:100vh;
     width: 100%;
     background: url('../images/main_banner_simulation.jpg') no-repeat center center; 
@@ -14,12 +17,30 @@
     background: url('../images/2nd_banner_parallax_simulation.jpg') no-repeat center center; 
 }
 .politica-header{
+    margin-bottom: 50px;
     height: 40vh;
     width: 100%;
     background: url('../images/banner_politicaprivacidade.jpg') no-repeat center center; 
 }
 
-/* accordion for politicaprivacidade */
+.footer_fixed{
+    height: 25vh;
+    width: 100%;
+    color: #C2C3C4;
+    background-color: #363B3D;
+}
+footer>div>h4{
+    font-weight: bold;
+}
+
+.body-wrap{
+   height: 35vh;
+}
+.body-wrap >p{
+    margin: 141px 0 10px;
+}
+
+/* politicaprivacidade */
 .panel-title > a:before {
     float: right !important;
     font-family: FontAwesome;
@@ -34,4 +55,23 @@
 .panel-title > a:active, 
 .panel-title > a:focus  {
     text-decoration:none;
+}
+fieldset{
+    height: 25vh;
+    padding-left: 400px; 
+    border: 4px solid white;
+}
+fieldset>legend>h1{
+    color: #FFFFFF;
+}
+fieldset>h3{
+    margin-top: 30px;
+    color: #fefefede;
+}
+legend{
+    color: rgb(11,63,113); 
+    font-weight: bold; 
+    font-size: 11pt;
+    border: 0;
+    border-bottom: 0;
 }
