@@ -14,13 +14,22 @@
 .home-footer{
     height: 40vh;
     width: 100%;
-    background: url('../images/2nd_banner_parallax_simulation.jpg') no-repeat center center; 
+    background: url('../images/2nd_banner_parallax_simulation.jpg') no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    position: relative; 
 }
 .politica-header{
-    margin-bottom: 50px;
     height: 40vh;
     width: 100%;
-    background: url('../images/banner_politicaprivacidade.jpg') no-repeat center center; 
+    background: url('../images/banner_politicaprivacidade.jpg') no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    position: relative; 
 }
 
 .footer_fixed{
@@ -33,14 +42,20 @@ footer>div>h4{
     font-weight: bold;
 }
 
+.arrows{
+width: 20px; 
+height: 15px;
+}
+
 .body-wrap{
    height: 35vh;
 }
+
 .body-wrap >p{
     margin: 141px 0 10px;
 }
 
-/* politicaprivacidade */
+/* politicaprivacidade 
 .panel-title > a:before {
     float: right !important;
     font-family: FontAwesome;
@@ -50,11 +65,28 @@ footer>div>h4{
 .panel-title > a.collapsed:before {
     float: right !important;
     content:"\f056";
+}*/
+.panel-title{
+    font-size: 32px;
+    color:  #254F75;
+    font-weight: 600;
+    margin-top: 10px;
+    margin-bottom: 10px
 }
 .panel-title > a:hover, 
 .panel-title > a:active, 
 .panel-title > a:focus  {
     text-decoration:none;
+    
+}
+.panel-group .panel-heading {
+    padding: 20px;
+    border-bottom: solid 1px;
+    border-color: #9FB1C2;
+    padding-bottom: 30px;
+}
+.panel-heading:hover{
+    background-color: lightgray;
 }
 fieldset{
     height: 25vh;
@@ -69,9 +101,8 @@ fieldset>h3{
     color: #fefefede;
 }
 legend{
-    color: rgb(11,63,113); 
-    font-weight: bold; 
-    font-size: 11pt;
+    
     border: 0;
-    border-bottom: 0;
+    width:auto; 
+    padding: 15px;
 }

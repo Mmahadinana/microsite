@@ -3,8 +3,11 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <?php 
 	//load the bootstrap
-	$jsFiles=['bootstrap.min.js'];
+	$js_files=['bootstrap.min.js',
+				'micro.js'];
 
-	foreach ($jsFiles as $jsFile) {?>
-        <script src='<?php echo base_url("assets/js/$jsFile")?>'></script>
-    <?php }?> 
+	foreach ($js_files as $js_file) {?>
+        <script src='<?php echo base_url("assets/js/$js_file")?>'></script>
+    <?php
+    }
+    ?> 

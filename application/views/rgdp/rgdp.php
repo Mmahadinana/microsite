@@ -2,7 +2,7 @@
 <!--main body-->
 
 	<!--landing view-->
-	<section id="banner" class="">
+	<section id="splash" class="">
 		<?php $this->load->view('landing/landing') ?>
 	</section>
 	<!--main body-->
@@ -17,7 +17,6 @@
 	<section id="laws" class="container">
 		<?php $this->load->view('laws/laws') ?>
 	</section>
-	<!--main body-->
 	<section class="">
 		<?php $this->load->view('politica_data/politicaprivacidade') ?>
 	</section>
