@@ -3,54 +3,59 @@
 <!--main body-->
 <div class="container hght">
 	<!--header for laws-->
-	<div>
+	<div class="ab_scr text-center">
 
-		<h1>WHAT DOES THE RGPD IMPACT ON BUSINESS?</h1>
+		<h2>QUE EXIGÊNCIAS O RGPD IMPUTA ÀS EMPRESAS? </h2>
 
 		<!--heading content-->
-		<p>
-			The new Data Protection Regulation is based on seven fundamental principles
-		</p>
+		<h3>
+			O novo Regulamento de Proteção de Dados assenta em sete princípios fundamentais:
+
+		</h3>
 	</div>
-	<div class="vert-line-laws">
+	<div class="col-lg-10 laws">
 		<!--Content of Laws view-->
 		<div>
-			<h2>// Transparency</h2>
+			<h2>// Transparência</h2>
 			<p>
-				Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+				Os dados pessoais são objeto de um tratamento lícito, leal e transparente em relação ao titular dos dados;
+
 			</p>
 
 		</div>
 
 		<div>
-			<h2>// Limitation of Purposes</h2>
+			<h2>// Limitação das ﬁnalidades</h2>
 
 			<p>
-				Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+				Os dados pessoais só devem ser tratados para os ﬁns para os quais foram recolhidos, conforme comunicado aos detentores desses dados;
+
 			</p>
 		</div>
 		<div>
-			<h2>// Minimization of data</h2>
+			<h2>// Minimização dos dados</h2>
 			<p>
-				Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+				Os dados pessoais são adequados, pertinentes e limitados ao que é necessário relativamente às ﬁnalidades para as quais são tratados;
+
 			</p>
 		</div>
 		<div>
-			<h2>// Accuracy</h2>
+			<h2>// Exatidão</h2>
 			<p>
-				Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+				As empresas têm de garantir que os dados recolhidos estão corretos, ao longo de todo o processamento dos mesmos. Os dados incorretos devem ser apagados ou corrigidos;
+
 			</p>
 		</div>
 		<div>
-			<h2>// Conservation limitation</h2>
+			<h2>// Limitação de conservação</h2>
 			<p>
-				Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+				Os dados dos clientes devem ser mantidos, pelo tempo que for estritamente necessário. Integridade e conﬁdencialidade: Os dados dos clientes devem ser devidamente protegidos, garantindo a sua segurança, evitando divulgações não autorizadas ou acidentais;
 			</p>
 		</div>
 		<div>
-			<h2>// Responsibility</h2>
+			<h2>// Responsabilidad</h2>
 			<p>
-				Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+				Compete às empresas o cumprimento das normas do RGPD, bem como eventuais lacunas resultantes da não conformidade com as mesmas
 			</p>
 		</div>
 		
