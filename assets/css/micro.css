@@ -1,21 +1,37 @@
-body {
-    margin: 0px;
-    padding: 0px;
-}
-
 .splash {
     height:100vh;
     width: 100%;
-    background: url('../images/header.png') no-repeat center center; 
+    background: url('../images/main_banner_simulation.jpg') no-repeat center center; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
     position: relative;
 }
-/*
-.test {
-    height: 500px;
+.home-footer{
+    height: 40vh;
     width: 100%;
-    background-color: blue;
-}*/
+    background: url('../images/2nd_banner_parallax_simulation.jpg') no-repeat center center; 
+}
+.politica-header{
+    height: 40vh;
+    width: 100%;
+    background: url('../images/banner_politicaprivacidade.jpg') no-repeat center center; 
+}
+
+/* accordion for politicaprivacidade */
+.panel-title > a:before {
+    float: right !important;
+    font-family: FontAwesome;
+    content:"\f055";
+    padding-right: 5px;
+}
+.panel-title > a.collapsed:before {
+    float: right !important;
+    content:"\f056";
+}
+.panel-title > a:hover, 
+.panel-title > a:active, 
+.panel-title > a:focus  {
+    text-decoration:none;
+}
