@@ -9,7 +9,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     
 	<?php 
     $cssFiles =['bootstrap.min.css',
-                'font-awesome.min.css',
+                //'font-awesome.min.css',
+                'fontawesome-all.min.css',
     			'micro.css',
                 'master.css'
     			];
