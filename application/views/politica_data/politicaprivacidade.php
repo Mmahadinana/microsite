@@ -20,18 +20,18 @@
           <div class="panel">
             <!-- panel heading-->
             <div class="panel-heading clickable">
-              <h4 class="panel-title">
-                <a class="<?php echo ($index=="data1")?'collapsed':'' ?>" 
-                  data-toggle="collapse" 
+              <a class="<?php echo ($index=="data1")?'collapsed':'' ?>"
+                data-toggle="collapse" 
                   data-parent="accordion" href="#collapse-<?php echo $index; ?>" 
                   aria-expanded="true" aria-controls="collapse">
+                <h4 class="panel-title">
                   <span>// <?php echo $data[0]; ?></span> 
                   <span >
                     <img class="pull-right arrows" src="<?php echo base_url(($index=="data1")? 'assets/images/arrow_opened.svg': 'assets/images/arrow_closed.svg') ?>" 
                     id="img_collapse-<?php echo $index; ?>"  alt="">
                   </span>
-                </a>
-              </h4>
+                </h4>
+              </a>
             </div>
             <div id="collapse-<?php echo $index; ?>" class="panel-collapse collapse <?php echo ($index=="data1")?'in':'' ?>">
               <!-- panel body-->

@@ -11,6 +11,7 @@
     background-size: cover;
     position: relative;
 }
+/*image with parallex effect*/
 .home-footer{
     height: 40vh;
     width: 100%;
@@ -21,6 +22,7 @@
     background-size: cover;
     position: relative; 
 }
+/*image before the acordion*/
 .politica-header{
     height: 40vh;
     width: 100%;
@@ -31,7 +33,7 @@
     background-size: cover;
     position: relative; 
 }
-
+/*page footer*/
 .footer_fixed{
     height: 25vh;
     width: 100%;
@@ -52,7 +54,7 @@ height: 15px;
 }
 
 .body-wrap >p{
-    margin: 141px 0 10px;
+    margin: 95px;
 }
 
 .panel-title{
@@ -62,9 +64,9 @@ height: 15px;
     margin-top: 10px;
     margin-bottom: 10px
 }
-.panel-title > a:hover, 
-.panel-title > a:active, 
-.panel-title > a:focus  {
+.panel-heading > a:hover, 
+.panel-heading > a:active, 
+.panel-heading > a:focus  {
     text-decoration:none;
     
 }
