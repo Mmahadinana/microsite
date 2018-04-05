@@ -1,20 +1,15 @@
 
 $(function() {
 
-$(document).on('click', '.panel-heading', function(e){
-     e.preventDefault();//($('.collapsed')[0])
-     //alert($(this).find('a').hasClass("collapsed"));
+$(document).on('click', '.clickable', function(e){
+     e.preventDefault();
      if ($(this).find('a').hasClass("collapsed")) {
-     	$(".arrows").attr('src',"assets/images/arrow_closed.svg");
+     	$(this).find("span .arrows").attr('src',"assets/images/arrow_closed.svg");
      }else {
-     	//alert ('out');
-     	$(".arrows").attr('src',"assets/images/arrow_opened.svg");
+     	$(this).find("span .arrows").attr('src',"assets/images/arrow_opened.svg");
      }
    		
  });
-/*
-$(document).on('click', '.opened', function(e){
-	e.preventDefault();
- 	$(".arrows").attr('src',"assets/images/arrow_opened.svg");
-})*/
+
+
 });
