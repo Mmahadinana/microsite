@@ -5,11 +5,11 @@
 	<!--header for laws-->
 	<div class="ab_scr text-center">
 
-		<h2>QUE EXIGÊNCIAS O RGPD IMPUTA ÀS EMPRESAS? </h2>
+		<h2><span>QUE EXIGÊNCIAS O RGPD IMPUTA ÀS EMPRESAS? </span></h2>
 
 		<!--heading content-->
-		<h3>
-			O novo Regulamento de Proteção de Dados assenta em sete princípios fundamentais:
+		<h3><span>
+			O novo Regulamento de Proteção de Dados assenta em sete princípios fundamentais:</span>
 
 		</h3>
 	</div>

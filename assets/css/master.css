@@ -1,7 +1,8 @@
 /**
  * default style
  */
-html{
+html
+{
 	/*clear spaces*/
 	margin: 0px;
 	padding: 0px;
@@ -9,7 +10,8 @@ html{
 	
 		
 }
-body{
+body
+{
 	font-family: Lato !important;
 	height: 100%;
 	font-size: 18px;
@@ -17,11 +19,13 @@ body{
 
 
 }
-section:first-child{
+section:first-child
+{
 	margin-bottom: 0px;
 	margin-top: 0px;
 }
-section{
+section
+{
 	width: 100%;
 	height: 100%;
 	margin-bottom: 100px;
@@ -32,26 +36,52 @@ section{
  * custom style
  */
 
-div .hght{
+/*div .hght{
 	height: 50% !important;
+}*/
+.hght h3, .hght h2
+{
+	margin: 0px;
+
+}
+.hght .ab_scr
+{
+	margin-bottom: 5em;
+}
+.hght .ab_scr h3
+{
+	padding-top: 0.2em;
+
 }
 
-.laws{
+.hght .ab_scr h3 span,
+.hght .ab_scr h2 span
+{
+	background-color: #e5f0f3;
+}
+.laws
+{
 
-	border-left: 2px solid #5199ad;
-	font-weight: 400;		
+	border-left: 2px solid #5199ad;			
 	text-align: left;
 	padding-left:20px; 
 }
-.laws h2{
+.laws h2
+{
 	color: #5199ad;
 	font-weight: 600;
 }
-.laws p{
-	font-size: 18px; 
+.laws p,
+.ab_d p,
+p
+{
+	font-size: 18px;
+	font-weight: 400; 
+
 }
 /*about div style*/
-.ab_d .row  div:last-child{
+.ab_d .row  div:last-child
+{
 	
 	padding-left: 5em;
 	text-align: left;
@@ -59,16 +89,19 @@ div .hght{
 
 
 }
-.ab_d .row{
+.ab_d .row
+{
 	height: 300px;
 }
-.ab_d .row div:first-child{
+.ab_d .row div:first-child
+{
 	height: 100%;
 	border-right: 1px solid #757575;
 	padding-right: 5em;
 	text-align: right;
 }
-.ab_d .row div img{
+.ab_d .row div img
+{
 	width: 200px;
 	height: 200px;
 }
@@ -76,17 +109,27 @@ div .hght{
 	border: 1px solid #757575;
 
 }*/
-.ab_scr{
+
+/* about view colors */
+.ab_scr
+{
 	color:  #5199ad
 }
-.ab_br{
+.ab_br
+{
 	color:   #b7621c
 }
-.ab_dcr{	
+.ab_dcr
+{	
 	color:  #254f75
 }
-.ab_vy{
+.ab_vy
+{
  	color:  #d1bd42;
+}
+.ab_lb
+{
+	background-color: #e5f0f3;
 }
 /*.hght>div>.vet-line-laws{
 	background-color: blue;
@@ -100,7 +143,8 @@ div .hght{
 /*col{border: none}*/
 
 /* *******************small media************* */
-@media (max-width: 768px) {
+@media (max-width: 768px) 
+{
 	.ab_d .row div:first-child{
 		
 		margin-bottom:205px;
@@ -119,3 +163,38 @@ div .hght{
 		height: 0px;
 	}
 }*/
+/*******nkgethwa page home view*/
+/** color */
+.home h1{
+	text-align: center;
+}
+.home-footer .text-white{
+	color: #ffffff;
+}
+.home-footer img
+{
+	width: 70px;
+	height: 70px;
+}
+.home-footer .caption
+{
+
+}
+.home-footer h3
+{
+	margin: 0px;
+	padding: 0px;
+
+}
+.home-footer h3:first-child
+{
+	margin-top: 2em;
+	/*padding-right: 3em;*/
+	font-weight: 400;
+}
+.home-footer h3:nth-of-type(2)
+{
+	font-weight: 600;
+	margin-bottom:3em; 
+	
+}
