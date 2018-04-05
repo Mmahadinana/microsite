@@ -3,7 +3,7 @@
 /*banner*/
 .banner {
     height:100vh;
-    width: 100%;
+    width: 100vw;
     background: url('../images/main_banner_simulation.jpg') no-repeat center center; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -11,11 +11,31 @@
     background-size: cover;
     position: relative;
 }
+.logo{
+    padding-top: 100px;
+    height: 5vh;
+    width: 8vw;
+}
+.banner-text>h1{
+    font-size: 2.5em;
+    margin-top: 30vh;
+    text-align: center;
+    text-shadow: 2px 2px #000;
+    color: #FFFFFF;
+    font-weight: 600;
+}
+.banner-text>h2{
+    text-align: center;
+    font-size: 2.5em;
+    text-shadow: 2px 2px #000;
+    color: #FFFFFF;
+    font-weight: 300;
+}
 /*image with parallex effect*/
 .home-footer{
-    height: 40vh;
-    width: 100%;
-    background: url('../images/2nd_banner_parallax_simulation.jpg') no-repeat center center;
+    height: 56vh;
+    width: 100vw;
+    background: url('../images/2nd_banner_parallax_simulation2.jpg') no-repeat center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -24,39 +44,42 @@
 }
 /*image before the acordion*/
 .politica-header{
-    height: 40vh;
-    width: 100%;
+    padding-top: 50px;
+    height: 39vh;
+    width: 100vw;
     background: url('../images/banner_politicaprivacidade.jpg') no-repeat center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
     position: relative; 
+    margin-bottom: 100px;
 }
 /*page footer*/
 .footer_fixed{
-    height: 25vh;
+    height: 29vh;
     width: 100%;
     color: #C2C3C4;
     background-color: #363B3D;
 }
 footer>div>h4{
     font-weight: bold;
+    padding-top: 30px
 }
 
 .arrows{
 width: 20px; 
 height: 15px;
 }
-
+/*set the size of the container with contact details*/
 .body-wrap{
-   height: 35vh;
+   height: 25vh;
 }
 
 .body-wrap >p{
-    margin: 95px;
+    margin-bottom: 150px;
+    font-weight: 600px;
 }
-
 .panel-title{
     font-size: 32px;
     color:  #254F75;
@@ -64,11 +87,14 @@ height: 15px;
     margin-top: 10px;
     margin-bottom: 10px
 }
-.panel-heading > a:hover, 
-.panel-heading > a:active, 
-.panel-heading > a:focus  {
+.panel > a:hover, 
+.panel > a:active, 
+.panel > a:focus  {
     text-decoration:none;
     
+}
+.panel-group .panel+.panel {
+    margin-top: 0px;
 }
 .panel-group .panel-heading {
     padding: 20px;
@@ -77,7 +103,7 @@ height: 15px;
     padding-bottom: 30px;
 }
 .panel-heading:hover{
-    background-color: lightgray;
+    background-color: #d3d3d33b;
 }
 fieldset{
     height: 25vh;
@@ -90,9 +116,10 @@ fieldset>legend>h1{
 fieldset>h3{
     margin-top: 30px;
     color: #fefefede;
+    text-align: center;
 }
 legend{
-    
+    text-align: center;
     border: 0;
     width:auto; 
     padding: 15px;
