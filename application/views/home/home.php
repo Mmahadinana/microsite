@@ -12,7 +12,7 @@
 		Com estas novas medidas, a ACIN reforça ainda mais a sua posição na transparência e no respeito pela privacidade dos seus clientes
 	</p>
 </div>
-<div class="clearfix"></div>
+
 <div class="home-footer text-center">
 	<div class="row">
 		<div class="co-md-10 text-white">
@@ -70,4 +70,5 @@
 		
 		
 	</div>
+
 </div>
