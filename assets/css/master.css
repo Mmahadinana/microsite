@@ -6,6 +6,7 @@ html
 	/*clear spaces*/
 	margin: 0px;
 	padding: 0px;
+	width: 100%;
 	/*setting the width of the app*/
 	
 		
@@ -30,21 +31,31 @@ section
 	width: 100%;
 	height: 100%;
 	margin-bottom: 100px;
-	margin-top: 100px;
+	margin-top: 50px;
 }
+/* default size and weight for text */
+p
+{
+	 font-size: 13px;
+	 font-weight: 300; 
 
+}
 /**
  * custom style
  */
-
+.row{
+	margin: 0px !important;
+}
 /*div .hght{
 	height: 50% !important;
 }*/
+/*removing the spaces outside the headings*/
 .hght h3, .hght h2
 {
 	margin: 0px;
 
 }
+
 .hght .ab_scr
 {
 	margin-bottom: 5em;
@@ -66,41 +77,52 @@ section
 	text-align: left;
 	padding-left:20px; 
 }
-.laws h2
+.laws h3
 {
 	color: #5199ad;
-	font-weight: 600;
+	/*font-weight: 600;*/
 }
-.laws p,
-.ab_d p,
-p
-{
-	font-size: 18px;
-	font-weight: 400; 
 
-}
-/*about div style*/
+
+
+/*about questions and answers div style*/
 .ab_d .row  div:last-child
 {
-	
+	border-left: 1px solid #757575;
 	padding-left: 5em;
 	text-align: left;
 }
-.ab_d .row
-{
-	height: 300px;
-}
-.ab_d .row div:first-child
+/*setting the container´s height for questions and answers*/
+.ab_d .row div
 {
 	height: 100%;
-	border-right: 1px solid #757575;
+}
+.ab_d .row
+{
+	height: auto;
+
+}
+/*container of the images for questions and answers*/
+.ab_d .row div:first-child
+{
 	padding-right: 5em;
 	text-align: right;
 }
+/*images for questions and answers*/
 .ab_d .row div img
 {
-	width: 200px;
-	height: 200px;
+	width: 90px;
+	height: 90px;
+}
+/*heading for questions and answers*/
+.ab_d .row div h3{
+	font-weight: 700;
+	font-size: 20px;
+}
+/*ansewrs for questions and answers*/
+.ab_d>p{
+	font-size: 15px;
+	width: 530px;
 }
 /*.ab{
 	border: 1px solid #757575;
@@ -139,31 +161,14 @@ p
 
 /*col{border: none}*/
 
-/* *******************small media************* */
-@media (max-width: 768px) 
-{
-	.ab_d .row div:first-child{
-		
-		margin-bottom:205px;
-		padding: 0px;	
-		border: none;	
-		height: 0px;
-		text-align: center;
 
-	}
-}
-/*@media (min-width: 1199) {
-	.ab_d div:first-child{
-		margin: 0px;
-	
-		border: none;
-		height: 0px;
-	}
-}*/
 /*******nkgethwa page home view*/
 /** color */
 .home h1{
-	text-align: center;
+	/*text-align: center;*/
+}
+.home p{
+	text-align: left;
 }
 .home-footer .text-white{
 	color: #ffffff;
@@ -173,9 +178,9 @@ p
 	width: 70px;
 	height: 70px;
 }
-.home-footer .caption
+.home-footer 
 {
-
+	margin-top: 5em;
 }
 .home-footer h3
 {
@@ -185,13 +190,53 @@ p
 }
 .home-footer h3:first-child
 {
-	margin-top: 3em;
+	margin-top: 5em;
 	/*padding-right: 3em;*/
 	font-weight: 400;
 }
 .home-footer h3:nth-of-type(2)
 {
 	font-weight: 600;
-	margin-bottom:3em; 
+	margin-bottom:5em; 
 	
 }
+/* *******************small media************* */
+@media (max-width: 1024px) {
+	p{
+		font-size: 0.9em
+	} 
+	.home-footer{
+		height: auto;
+	}
+}
+@media (max-width: 768px) 
+{	.row {
+		margin-right: 0px;
+		margin-left: 0px;
+
+		}
+	.ab_d .row div:first-child
+	{
+		text-align: center;
+	}
+	.ab_d .row div:last-child
+	{
+		
+		margin-bottom:2em;
+		padding: 0px;	
+		border: none;	
+		height:auto;
+		text-align: left;
+
+	}
+	.ab_d .row div
+	{
+		height: auto;
+	}
+}
+
+/*@media (min-width: 1199) {
+	.ab_d p{
+		width: 90%;
+	} 
+}*/
