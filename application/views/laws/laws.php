@@ -16,7 +16,7 @@
 	<div class="col-lg-10 laws">
 		<!--Content of Laws view-->
 		<div>
-			<h2>// Transparência</h2>
+			<h3>// Transparência</h3>
 			<p>
 				Os dados pessoais são objeto de um tratamento lícito, leal e transparente em relação ao titular dos dados;
 
@@ -25,37 +25,44 @@
 		</div>
 
 		<div>
-			<h2>// Limitação das ﬁnalidades</h2>
+			<h3>// Limitação das finalidades</h3>
 
 			<p>
-				Os dados pessoais só devem ser tratados para os ﬁns para os quais foram recolhidos, conforme comunicado aos detentores desses dados;
-
-			</p>
-		</div>
-		<div>
-			<h2>// Minimização dos dados</h2>
-			<p>
-				Os dados pessoais são adequados, pertinentes e limitados ao que é necessário relativamente às ﬁnalidades para as quais são tratados;
+				Os dados pessoais só devem ser tratados para os fins para os quais foram recolhidos, conforme comunicado aos detentores desses dados.
 
 			</p>
 		</div>
 		<div>
-			<h2>// Exatidão</h2>
+			<h3>// Minimização dos dados</h3>
 			<p>
-				As empresas têm de garantir que os dados recolhidos estão corretos, ao longo de todo o processamento dos mesmos. Os dados incorretos devem ser apagados ou corrigidos;
+				Os dados pessoais são adequados, pertinentes e limitados ao que é necessário relativamente às finalidades para as quais são tratados;
+
 
 			</p>
 		</div>
 		<div>
-			<h2>// Limitação de conservação</h2>
+			<h3>// Exatidão</h3>
 			<p>
-				Os dados dos clientes devem ser mantidos, pelo tempo que for estritamente necessário. Integridade e conﬁdencialidade: Os dados dos clientes devem ser devidamente protegidos, garantindo a sua segurança, evitando divulgações não autorizadas ou acidentais;
+				As empresas têm de garantir que os dados recolhidos estão corretos, ao longo de todo o processamento dos mesmos. Os dados incorretos devem ser apagados ou corrigidos.
+
 			</p>
 		</div>
 		<div>
-			<h2>// Responsabilidad</h2>
+			<h3>// Limitação de conservação</h3>
 			<p>
-				Compete às empresas o cumprimento das normas do RGPD, bem como eventuais lacunas resultantes da não conformidade com as mesmas
+				Os dados dos clientes devem ser mantidos, pelo tempo que for estritamente necessário.
+			</p>
+		</div>
+		<div>
+			<h3>// Integridade e confidencialidade</h3>
+			<p>
+				Os dados dos clientes devem ser devidamente protegidos, garantindo a sua segurança, evitando divulgações não autorizadas ou acidentais
+			</p>
+		</div>
+		<div>
+			<h3>// Responsabilidade</h3>
+			<p>
+				Compete às empresas o cumprimento das normas do RGPD, bem como eventuais lacunas resultantes da não conformidade com as mesmas.
 			</p>
 		</div>
 		

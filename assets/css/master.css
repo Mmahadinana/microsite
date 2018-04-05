@@ -30,9 +30,15 @@ section
 	width: 100%;
 	height: 100%;
 	margin-bottom: 100px;
-	margin-top: 100px;
+	margin-top: 50px;
 }
+/* default size and weight for text */
+p
+{
+	 font-size: 13px;
+	 font-weight: 300; 
 
+}
 /**
  * custom style
  */
@@ -40,11 +46,13 @@ section
 /*div .hght{
 	height: 50% !important;
 }*/
+/*removing the spaces outside the headings*/
 .hght h3, .hght h2
 {
 	margin: 0px;
 
 }
+
 .hght .ab_scr
 {
 	margin-bottom: 5em;
@@ -66,30 +74,28 @@ section
 	text-align: left;
 	padding-left:20px; 
 }
-.laws h2
+.laws h3
 {
 	color: #5199ad;
-	font-weight: 600;
+	/*font-weight: 600;*/
 }
-.laws p,
-.ab_d p,
-p
-{
-	font-size: 18px;
-	font-weight: 400; 
 
-}
-/*about div style*/
+
+
+/*about questions and answers div style*/
 .ab_d .row  div:last-child
 {
 	
 	padding-left: 5em;
 	text-align: left;
 }
+/*setting the container´s height for questions and answers*/
 .ab_d .row
 {
 	height: 300px;
+
 }
+/*container of the images for questions and answers*/
 .ab_d .row div:first-child
 {
 	height: 100%;
@@ -97,10 +103,21 @@ p
 	padding-right: 5em;
 	text-align: right;
 }
+/*images for questions and answers*/
 .ab_d .row div img
 {
-	width: 200px;
-	height: 200px;
+	width: 90px;
+	height: 90px;
+}
+/*heading for questions and answers*/
+.ab_d .row div h3{
+	font-weight: 700;
+	font-size: 20px;
+}
+/*ansewrs for questions and answers*/
+.ab_d p{
+	font-size: 15px;
+	width: 530px;
 }
 /*.ab{
 	border: 1px solid #757575;
@@ -163,7 +180,10 @@ p
 /*******nkgethwa page home view*/
 /** color */
 .home h1{
-	text-align: center;
+	/*text-align: center;*/
+}
+.home p{
+	text-align: left;
 }
 .home-footer .text-white{
 	color: #ffffff;
@@ -173,9 +193,9 @@ p
 	width: 70px;
 	height: 70px;
 }
-.home-footer .caption
+.home-footer 
 {
-
+	margin-top: 5em;
 }
 .home-footer h3
 {
