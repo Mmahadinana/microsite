@@ -55,17 +55,6 @@ height: 15px;
     margin: 141px 0 10px;
 }
 
-/* politicaprivacidade 
-.panel-title > a:before {
-    float: right !important;
-    font-family: FontAwesome;
-    content:"\f055";
-    padding-right: 5px;
-}
-.panel-title > a.collapsed:before {
-    float: right !important;
-    content:"\f056";
-}*/
 .panel-title{
     font-size: 32px;
     color:  #254F75;
