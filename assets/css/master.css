@@ -6,6 +6,7 @@ html
 	/*clear spaces*/
 	margin: 0px;
 	padding: 0px;
+	width: 100%;
 	/*setting the width of the app*/
 	
 		
@@ -42,7 +43,9 @@ p
 /**
  * custom style
  */
-
+.row{
+	margin: 0px !important;
+}
 /*div .hght{
 	height: 50% !important;
 }*/
@@ -85,21 +88,23 @@ p
 /*about questions and answers div style*/
 .ab_d .row  div:last-child
 {
-	
+	border-left: 1px solid #757575;
 	padding-left: 5em;
 	text-align: left;
 }
 /*setting the container´s height for questions and answers*/
+.ab_d .row div
+{
+	height: 100%;
+}
 .ab_d .row
 {
-	height: 300px;
+	height: auto;
 
 }
 /*container of the images for questions and answers*/
 .ab_d .row div:first-child
 {
-	height: 100%;
-	border-right: 1px solid #757575;
 	padding-right: 5em;
 	text-align: right;
 }
@@ -115,7 +120,7 @@ p
 	font-size: 20px;
 }
 /*ansewrs for questions and answers*/
-.ab_d p{
+.ab_d>p{
 	font-size: 15px;
 	width: 530px;
 }
@@ -156,27 +161,7 @@ p
 
 /*col{border: none}*/
 
-/* *******************small media************* */
-@media (max-width: 768px) 
-{
-	.ab_d .row div:first-child{
-		
-		margin-bottom:205px;
-		padding: 0px;	
-		border: none;	
-		height: 0px;
-		text-align: center;
 
-	}
-}
-/*@media (min-width: 1199) {
-	.ab_d div:first-child{
-		margin: 0px;
-	
-		border: none;
-		height: 0px;
-	}
-}*/
 /*******nkgethwa page home view*/
 /** color */
 .home h1{
@@ -205,13 +190,53 @@ p
 }
 .home-footer h3:first-child
 {
-	margin-top: 3em;
+	margin-top: 5em;
 	/*padding-right: 3em;*/
 	font-weight: 400;
 }
 .home-footer h3:nth-of-type(2)
 {
 	font-weight: 600;
-	margin-bottom:3em; 
+	margin-bottom:5em; 
 	
 }
+/* *******************small media************* */
+@media (max-width: 1024px) {
+	p{
+		font-size: 0.9em
+	} 
+	.home-footer{
+		height: auto;
+	}
+}
+@media (max-width: 768px) 
+{	.row {
+		margin-right: 0px;
+		margin-left: 0px;
+
+		}
+	.ab_d .row div:first-child
+	{
+		text-align: center;
+	}
+	.ab_d .row div:last-child
+	{
+		
+		margin-bottom:2em;
+		padding: 0px;	
+		border: none;	
+		height:auto;
+		text-align: left;
+
+	}
+	.ab_d .row div
+	{
+		height: auto;
+	}
+}
+
+/*@media (min-width: 1199) {
+	.ab_d p{
+		width: 90%;
+	} 
+}*/
