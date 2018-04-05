@@ -1,6 +1,97 @@
 /* mouse button scroller*/ 
+@-webkit-keyframes scrollDownKnobAnimation {
+    0% {
+        -webkit-transform: translate3d(0,0,0);
+        transform: translate3d(0,0,0)
+    }
 
-/*banner*/
+    100% {
+        -webkit-transform: translate3d(0,150%,0);
+        transform: translate3d(0,150%,0)
+    }
+}
+
+@-moz-keyframes scrollDownKnobAnimation {
+    0% {
+        -moz-transform: translate3d(0,0,0);
+        transform: translate3d(0,0,0)
+    }
+
+    100% {
+        -moz-transform: translate3d(0,150%,0);
+        transform: translate3d(0,150%,0)
+    }
+}
+
+@keyframes scrollDownKnobAnimation {
+    0% {
+        transform: translate3d(0,0,0)
+    }
+
+    100% {
+        transform: translate3d(0,150%,0)
+    }
+}
+
+.scroll-down {
+    position: absolute;
+    width: 150px;
+    bottom: 20px;
+    left: 50%;
+    margin-left: -75px;
+    z-index: 50;
+    display: block;
+    text-align: center;
+    font-size: 12px;
+    -webkit-font-smoothing: antialiased
+}
+
+.scroll-down .icon {
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+    width: 26px;
+    height: 44px;
+    display: block;
+    border-radius: 13px;
+    border: 2px solid #b3b3b3;
+    margin: 0 auto
+}
+
+.scroll-down .icon:before {
+    transition: all .3s ease;
+    width: 6px;
+    height: 6px;
+    -webkit-animation: scrollDownKnobAnimation 2s ease infinite;
+    -moz-animation: scrollDownKnobAnimation 2s ease infinite;
+    -o-animation: scrollDownKnobAnimation 2s ease infinite;
+    animation: scrollDownKnobAnimation 2s ease infinite;
+    position: absolute;
+    top: 6px;
+    border-radius: 50%;
+    background-color: #b3b3b3;
+    content: '';
+    left: 50%;
+    margin-left: -3px
+}
+
+.scroll-down .icon:before,.scroll-down span {
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -o-transition: all .3s ease
+}
+
+.scroll-down span {
+    /* transition:all .3s ease; */
+    position: relative;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    top: -24px;
+}
+
+/*****************************banner***********************************/
 .banner {
     height:100vh;
     width: 100vw;
@@ -12,12 +103,19 @@
     position: relative;
 }
 .logo{
-    padding-top: 100px;
-    height: 5vh;
-    width: 8vw;
+    padding-top: 100px;  
+}
+#img-logo{
+    height: 18vh;
+    width: 15vw;
+    min-height: 15vh;
+    min-width: 15vw;
+    position: absolute;
+    top: 20px;
+    left: 39%;
 }
 .banner-text>h1{
-    font-size: 2.5em;
+    /*font-size: 2.5em;*/
     margin-top: 30vh;
     text-align: center;
     text-shadow: 2px 2px #000;
@@ -31,7 +129,7 @@
     color: #FFFFFF;
     font-weight: 300;
 }
-/*image with parallex effect*/
+/**************image with parallex effect************************/
 .home-footer{
     height: 56vh;
     width: 100vw;
@@ -42,7 +140,7 @@
     background-size: cover;
     position: relative; 
 }
-/*image before the acordion*/
+/***************image before the acordion***********************/
 .politica-header{
     padding-top: 50px;
     height: 39vh;
@@ -55,9 +153,9 @@
     position: relative; 
     margin-bottom: 100px;
 }
-/*page footer*/
+/**************page footer***************/
 .footer_fixed{
-    height: 29vh;
+    margin-top: 230px;/* use this for mobile*/
     width: 100%;
     color: #C2C3C4;
     background-color: #363B3D;
@@ -67,6 +165,7 @@ footer>div>h4{
     padding-top: 30px
 }
 
+/**************politica_privada***************/
 .arrows{
 width: 20px; 
 height: 15px;
@@ -81,7 +180,7 @@ height: 15px;
     font-weight: 600px;
 }
 .panel-title{
-    font-size: 32px;
+    font-size: 1.5em;
     color:  #254F75;
     font-weight: 600;
     margin-top: 10px;
@@ -123,4 +222,18 @@ legend{
     border: 0;
     width:auto; 
     padding: 15px;
+}
+
+
+@media (max-width: 1024px){
+    #img-logo {
+    height: 10vh;
+    width: 30vw;
+    top: 20px;
+    left: 35%;
+    }
+
+    .banner-text>h1 {
+    margin-top: 25vh;
+    }
 }
