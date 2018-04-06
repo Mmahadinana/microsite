@@ -24,8 +24,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 |
 */
 
-//$config['base_url'] = 'http://10.11.10.11/rosy_marumo/microsite';
-$config['base_url'] = 'http://10.11.10.11/patric_raboqhwa/microsite';
+$config['base_url'] = 'http://10.11.10.11/rosy_marumo/microsite';
+//$config['base_url'] = 'http://10.11.10.11/patric_raboqhwa/microsite';
 
 
 /*
