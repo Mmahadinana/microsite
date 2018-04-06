@@ -105,14 +105,12 @@
 .logo{
     padding-top: 100px;  
 }
-#img-logo{
-    height: 18vh;
-    width: 15vw;
-    min-height: 15vh;
-    min-width: 15vw;
+#img-logo {
+    height: 9vh;
+    width: 10vw;
     position: absolute;
-    top: 20px;
-    left: 39%;
+    top: 56px;
+    right: 45%;
 }
 .banner-text>h1{
     /*font-size: 2.5em;*/
@@ -131,16 +129,17 @@
 }
 /**************image with parallex effect************************/
 .home-footer{
-    background-attachment: fixed;
-    background-position: center;
     height: 56vh;
     width: 100%;
-    background: url('../images/2nd_banner_parallax_simulation2.jpg') no-repeat center center;
+    background: url('../images/2nd_banner_parallax_simulation2.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-    background-size: cover;
-    position: relative; 
+    position: relative;
 }
 /***************image before the acordion***********************/
 .politica-header{
@@ -248,16 +247,25 @@ legend{
 /* media queries start here*/
 @media (max-width: 1024px){
     #img-logo {
-    height: 10vh;
-    width: 30vw;
-    top: 20px;
-    left: 35%;
+        height: 100px;
+        width: 80px;
+        top: 20px;
+        left: 45%;
     }
 
     .banner-text>h1 {
-    margin-top: 25vh;
+        margin-top: 25vh;
     }
     .footer_fixed {
-    margin-top: 65px;
+        margin-top: 65px;
+    }
+    fieldset {
+        height: 23vh;
+    }
+    legend>h1 {
+        font-size: 20px;
+    } 
+    fieldset>h3 {
+        font-size: 16px;
     }
 }
