@@ -131,6 +131,8 @@
 }
 /**************image with parallex effect************************/
 .home-footer{
+    background-attachment: fixed;
+    background-position: center;
     height: 56vh;
     width: 100vw;
     background: url('../images/2nd_banner_parallax_simulation2.jpg') no-repeat center center;
@@ -155,7 +157,7 @@
 }
 /**************page footer***************/
 .footer_fixed{
-    margin-top: 230px;/* use this for mobile*/
+    margin-top: -15px;
     width: 100%;
     color: #C2C3C4;
     background-color: #363B3D;
@@ -204,8 +206,9 @@ height: 15px;
 .panel-heading:hover{
     background-color: #d3d3d33b;
 }
+/* this is the text on top of politica heading*/
 fieldset{
-    height: 25vh;
+    height: 26vh;
     padding-left: 400px; 
     border: 4px solid white;
 }
@@ -214,17 +217,22 @@ fieldset>legend>h1{
 }
 fieldset>h3{
     margin-top: 30px;
-    color: #fefefede;
+    color: #FFFFFF;
     text-align: center;
 }
 legend{
+    <!--[if IE]>
+        
+        color:red;
+      
+    <![endif]-->
     text-align: center;
     border: 0;
     width:auto; 
     padding: 15px;
 }
 
-
+/* media queries start here*/
 @media (max-width: 1024px){
     #img-logo {
     height: 10vh;
@@ -235,5 +243,8 @@ legend{
 
     .banner-text>h1 {
     margin-top: 25vh;
+    }
+    .footer_fixed {
+    margin-top: 65px;
     }
 }

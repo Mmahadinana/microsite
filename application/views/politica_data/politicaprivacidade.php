@@ -1,7 +1,7 @@
 <?php defined('BASEPATH') OR exit('No direct script access allowed'); 
 ?>
 <div class="politica-header">
-  <fieldset class="container text-center">
+  <fieldset class="container text-center ">
     <legend>
       <h1>POLÍTICA DE PRIVACIDADE <br>E TRATAMENTO DE DADOS </h1>
     </legend>
