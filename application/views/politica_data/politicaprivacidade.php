@@ -9,7 +9,14 @@
   </fieldset>
 </div>
 <div class="container">
-  <!-- panel group-->
+  <!--
+  *************************************************************************
+    The source of data for this panel is the controller
+    A foreach is used to generate multiple panels based on the available data
+  ****************************************************************************
+ 
+      ****************Panel group start****************
+  -->
   <div class="panel-group" id="accordion">
     <?php 
     //check if the variable array has been set 
