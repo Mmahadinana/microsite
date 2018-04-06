@@ -94,7 +94,7 @@
 /*****************************banner***********************************/
 .banner {
     height:100vh;
-    width: 100vw;
+    width: 100%;
     background: url('../images/main_banner_simulation.jpg') no-repeat center center; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -134,7 +134,7 @@
     background-attachment: fixed;
     background-position: center;
     height: 56vh;
-    width: 100vw;
+    width: 100%;
     background: url('../images/2nd_banner_parallax_simulation2.jpg') no-repeat center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -146,7 +146,7 @@
 .politica-header{
     padding-top: 50px;
     height: 39vh;
-    width: 100vw;
+    width: 100%;
     background: url('../images/banner_politicaprivacidade.jpg') no-repeat center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -197,6 +197,22 @@ height: 15px;
 .panel-group .panel+.panel {
     margin-top: 0px;
 }
+.panel-body>ul{
+    padding-left: 15px;
+    list-style-type: disc;
+}
+
+.panel-body>ul.dashed {
+  list-style-type: none;
+  padding-left: 0px;
+}
+.panel-body>ul.dashed > li {
+  /*text-indent: -5px;*/
+}
+.panel-body>ul.dashed > li:before {
+  content: "- ";
+  /*text-indent: -5px;*/
+}
 .panel-group .panel-heading {
     padding: 20px;
     border-bottom: solid 1px;
@@ -217,16 +233,13 @@ fieldset>legend>h1{
 }
 fieldset>h3{
     margin-top: 30px;
-    color: #FFFFFF;
-    text-align: center;
+    color: #FEFEFE;
+    /*text-align: center;*/
+    margin:0 auto;
 }
 legend{
-    <!--[if IE]>
-        
-        color:red;
-      
-    <![endif]-->
-    text-align: center;
+    margin:0 auto;
+    /*text-align: center;*/
     border: 0;
     width:auto; 
     padding: 15px;
