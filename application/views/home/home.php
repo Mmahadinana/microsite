@@ -2,7 +2,7 @@
 ?>
 <div class="container text-center home">
 	
-	<div class="col-md-offset-2 co-md-10">
+	<div class="col-md-offset-1 co-md-10">
 		<h3>A SUA EMPRESA ESTÁ PREPARADA PARA O RGPD?</h3>
 		<p>
 			A partir do dia 25 de maio, todas as empresas serão obrigadas a disponibilizar um conjunto de medidas apropriadas para garantir a conformidade dos seus processos de tratamento de dados pessoais.
