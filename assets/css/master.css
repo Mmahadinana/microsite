@@ -228,7 +228,11 @@ p
 @media (max-width: 1024px) {
 	p{
 		font-size: 0.9em
-	} 
+	}
+
+.home {
+	padding-bottom: 0px;
+}
 	.home-footer{
 		height: auto;
 		
@@ -245,7 +249,11 @@ p
 	}
 }
 @media (max-width: 768px) 
-{	.row {
+{	
+	.home {
+	margin-bottom: 80px;
+}
+	.row {
 		margin-right: 0px;
 		margin-left: 0px;
 
