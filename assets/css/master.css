@@ -20,12 +20,6 @@ body
 
 
 }
-section:first-child
-{
-	margin-bottom: 0px;
-	margin-top: 0px;
-}
-
 section
 {
 	width: 100%;
@@ -33,6 +27,13 @@ section
 	margin-bottom: 100px;
 	margin-top: 50px;
 }
+section:first-child
+{
+	margin-bottom: 0px;
+	margin-top: 0px;
+}
+
+
 /* default size and weight for text */
 p
 {
@@ -93,14 +94,16 @@ p
 	text-align: left;
 }
 /*setting the container´s height for questions and answers*/
-.ab_d .row div
-{
-	height: 100%;
-}
+
 .ab_d .row
 {
 	height: auto;
 
+}
+.ab_d .row div
+{
+	height: 100%;
+	padding-bottom: 5em;
 }
 /*container of the images for questions and answers*/
 .ab_d .row div:first-child
@@ -163,14 +166,19 @@ p
 
 
 /*******nkgethwa page home view*/
-/** color */
-.home h1{
-	/*text-align: center;*/
-}
+
+/*.home{
+	padding-top: 14px;
+	padding-bottom: 64px;
+}*/
+
 .home p{
-	 /*-webkit-*/
+	 
 	text-align: left;
 }
+/*.home-footer-content{
+	position: relative;
+}*/
 .home-footer .text-white{
 	color: #ffffff;
 }
@@ -179,10 +187,22 @@ p
 	width: 70px;
 	height: 70px;
 }
-.home-footer 
-{
-	margin-top: 5em;
-}
+/*.home-footer{
+	
+	***********************
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 400px;
+    width: 100vw;
+    background: url('../images/2nd_banner_parallax_simulation2.jpg');
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+   /* position: relative; 
+}*/
+
 .home-footer h3
 {
 	margin: 0px;
@@ -208,6 +228,17 @@ p
 	} 
 	.home-footer{
 		height: auto;
+		
+	}
+	.home-footer .col-md-2{
+		padding-bottom: 2em;
+
+	}
+	#about{
+		margin-top: -2em;
+	}
+	.ab_d>.row>div {
+		padding-bottom: 1em;
 	}
 }
 @media (max-width: 768px) 
@@ -216,11 +247,11 @@ p
 		margin-left: 0px;
 
 		}
-	.ab_d .row div:first-child
+	.ab_d>.row>div:first-child
 	{
 		text-align: center;
 	}
-	.ab_d .row div:last-child
+	.ab_d>.row>div:last-child
 	{
 		
 		margin-bottom:2em;
@@ -230,7 +261,7 @@ p
 		text-align: left;
 
 	}
-	.ab_d .row div
+	.ab_d>.row>div
 	{
 		height: auto;
 	}
