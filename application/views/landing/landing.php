@@ -1,6 +1,6 @@
 <?php defined('BASEPATH') OR exit('No direct script access allowed'); 
 ?>
-<div class="banner">
+<div class="banner container">
 	<div class="text-center">
 		<div class="row logo">
 			<img src=" <?php echo base_url("assets/images/logo.svg") ?>" id="img-logo" alt="Acin Logo">

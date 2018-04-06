@@ -17,6 +17,7 @@ body
 	font-family: "Lato",sans-serif;
 	height: 100%;
 	min-width: 320px;
+	/*overflow: hidden;*/
 
 
 }
@@ -167,22 +168,24 @@ p
 
 /*******nkgethwa page home view*/
 
-/*.home{
-	padding-top: 14px;
+.home{
+	padding-top: 80px;
 	padding-bottom: 64px;
-}*/
+	height: 50vh;
+	min-height: 400px;
+}
 
 .home p{
 	 
 	text-align: left;
 }
-/*.home-footer-content{
+.home-footer-content{
 	position: relative;
-}*/
-.home-footer .text-white{
+}
+.home-footer .home-footer-content .text-white{
 	color: #ffffff;
 }
-.home-footer img
+.home-footer .home-footer-content img
 {
 	width: 70px;
 	height: 70px;
@@ -203,19 +206,19 @@ p
    /* position: relative; 
 }*/
 
-.home-footer h3
+.home-footer .home-footer-content h3
 {
 	margin: 0px;
 	padding: 0px;
 
 }
-.home-footer h3:first-child
+.home-footer .home-footer-content h3:first-child
 {
 	margin-top: 5em;
 	/*padding-right: 3em;*/
 	font-weight: 400;
 }
-.home-footer h3:nth-of-type(2)
+.home-footer .home-footer-content h3:nth-of-type(2)
 {
 	font-weight: 600;
 	margin-bottom:5em; 
@@ -230,7 +233,7 @@ p
 		height: auto;
 		
 	}
-	.home-footer .col-md-2{
+	.home-footer .home-footer-content .col-md-2{
 		padding-bottom: 2em;
 
 	}

@@ -16,9 +16,8 @@
 	</div>
 	
 </div>
-
 <div class="home-footer text-center">
-	<!--div class="home-footer-content"-->
+	<div class="home-footer-content">
 		<div class="row">
 			<div class="co-md-10 text-white">
 				<h3>CONHEÇA ALGUNS DOS DIREITOS PESSOAIS QUE DEVERÁ TER EM CONTA</h3>
@@ -74,7 +73,7 @@
 			</div>
 
 
-		<!--/div-->
+		</div>
 	</div>
 	
 
